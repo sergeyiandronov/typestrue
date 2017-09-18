@@ -22,7 +22,8 @@ int main() {
     cout << " double "<< sizeof( double) << "  ("<< numeric_limits<double>::min()<<","<<numeric_limits<double>::max()<<")" <<  endl;
     cout << "short "<< sizeof( short) << "  ("<< numeric_limits<short>::min()<<","<<numeric_limits<short>::max()<<")" << endl;
     cout << "long double " << sizeof( long double) << "  ("<< numeric_limits<long double>::min()<<","<<numeric_limits<long double>::max()<<")" <<  endl;
-
+  cout << "void" << endl;
+    cout << "nullptr_t " << endl;
 
     cin.get();
     return 0;
@@ -43,4 +44,6 @@ float 4  (1.17549e-38,3.40282e+38)
  double 8  (2.22507e-308,1.79769e+308)
 short 2  (-32768,32767)
 long double 16  (3.3621e-4932,1.18973e+4932)
+void
+nullptr_t 
 ```
